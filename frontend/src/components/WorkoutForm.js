@@ -31,7 +31,7 @@ const WorkoutFrom = () => {
       setReps("");
       setError(null);
       console.log("new workout added", json);
-      dispatch({ type: "CREATE_WOKROUT", payload: json });
+      dispatch({ type: "CREATE_WORKOUT", payload: json });
     }
   };
 
